@@ -11,7 +11,7 @@ aside, main > div{
 
 aside{
     background-color: aquamarine;
-    width: 68px;
+    min-width: 68px;
     /* test */
 }
 
