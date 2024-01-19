@@ -3,3 +3,19 @@ main{
     height: calc(100vh - 56px);
     /* test */
 }
+
+aside, main > div{
+    height: 100%;
+    /* test */
+}
+
+aside{
+    background-color: aquamarine;
+    width: 150px;
+    /* test */
+}
+
+main > div{
+    background-color: blueviolet;
+    /* test */
+}
