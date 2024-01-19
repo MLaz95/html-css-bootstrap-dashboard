@@ -1,6 +1,6 @@
 main{
     background-color: pink;
-    height: calc(100vh - 56px);
+    height: calc(100vh - 56px); /* navbar offset */
     /* test */
 }
 
