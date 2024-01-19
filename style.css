@@ -20,15 +20,18 @@ main > div{
     /* test */
 }
 
+
+.test{
+    background-color: greenyellow;
+    border: 1px dashed red;
+    height: 150px;
+    /* test */
+}
+
+/* media query */
 @media screen and (min-width: 992px){
     aside{
         width: 150px;
     }
 }
 
-.test{
-    background-color: greenyellow;
-    border: 1px dashed red;
-    height: 100vh;
-    /* test */
-}
