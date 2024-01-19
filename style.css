@@ -1,6 +1,6 @@
 main{
     background-color: pink;
-    height: calc(100vh - 56px); /* navbar offset */
+    height: calc(100vh - 76px); /* navbar offset */
     /* test */
 }
 
@@ -26,6 +26,23 @@ main > div{
     border: 1px dashed red;
     /* height: 150px; */
     /* test */
+}
+/* test */
+
+/* custom colors */
+
+.my_search_bg{
+    background-color: #E5E5E5;
+}
+
+.my_yellow{
+    color: #FF8F00;
+}
+
+/* end custom colors */
+
+.my_brand{
+    max-height: 46px;
 }
 
 /* media query */
