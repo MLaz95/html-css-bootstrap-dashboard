@@ -57,10 +57,27 @@
     <!-- main -->
     <main class="d-flex">
         <!-- left bar -->
-        <aside class="d-flex flex-column gap-3 py-4 px-3">
-            <button type="button" class="btn btn-dark">Home</button>
-            <button type="button" class="btn btn-dark">Stats</button>
-            <button type="button" class="btn btn-dark">Signals</button>
+        <aside class="d-flex flex-column justify-content-between py-4 px-3">
+            <div class="d-flex flex-column gap-3">
+                <button type="button" class="btn btn-dark">
+                    <i class="fa-solid fa-house"></i>
+                    <span class="d-none d-md-inline">Home</span>
+                </button>
+                <button type="button" class="btn btn-dark">
+                    <i class="fa-solid fa-chart-simple"></i>
+                    <span class="d-none d-md-inline">Stats</span>
+                </button>
+                <button type="button" class="btn btn-dark">
+                    <i class="fa-solid fa-signal"></i>
+                    <span class="d-none d-md-inline">Signals</span>
+                </button>
+            </div>
+
+            <button type="button" class="btn btn-dark">
+                <i class="fa-solid fa-gear"></i>
+                <span class="d-none d-md-inline">Admin</span>
+            </button>
+            
         </aside>
 
         <!-- page content -->
