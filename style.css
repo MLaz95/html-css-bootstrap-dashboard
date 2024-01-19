@@ -20,14 +20,15 @@ main > div{
     /* test */
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 992px){
     aside{
         width: 150px;
     }
 }
 
-/* .test{
+.test{
     background-color: greenyellow;
     border: 1px dashed red;
     height: 100vh;
-} */
+    /* test */
+}
