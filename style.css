@@ -39,10 +39,22 @@ main > div{
     color: #FF8F00;
 }
 
+.my_blue_bg{
+    background-color: #1B72E8;
+}
+
+.my_dark_bg{
+    backdrop-filter: brightness(75%);
+}
+
 /* end custom colors */
 
 .my_brand{
     max-height: 46px;
+}
+
+.my_bc_divider{
+    --bs-breadcrumb-divider: "\00BB";
 }
 
 /* media query */
