@@ -54,6 +54,10 @@ main > div{
     background-color: #F7F7F7;
 }
 
+.my_orange_bg{
+    background-color: #F26551;
+}
+
 /* end custom colors */
 
 .my_brand{
@@ -62,6 +66,12 @@ main > div{
 
 .my_bc_divider{
     --bs-breadcrumb-divider: "\00BB";
+}
+
+.my_badge{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
 }
 
 /* media query */
