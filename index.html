@@ -454,34 +454,34 @@
     </main>
 
     <!-- offcanvas -->
-        <div class="offcanvas offcanvas-end offcanvas_size_xl" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas offcanvas-end offcanvas_size" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
         <div class="offcanvas-header">
             <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
             <form class="row g-3">
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-sm-6">
                     <label for="inputName">Nome</label>
                     <input type="text" class="form-control" id="inputName">
                 </div>
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-sm-6">
                     <label for="inputLastName">Cognome</label>
                     <input type="text" class="form-control" id="inputLastName">
                 </div>
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-sm-6">
                   <label for="exampleInputEmail1" class="form-label">Email address</label>
                   <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                 </div>
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-sm-6">
                   <label for="exampleInputPassword1" class="form-label">Password</label>
                   <input type="password" class="form-control" id="exampleInputPassword1">
                 </div>
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-sm-6">
                     <label for="InputEmail1" class="form-label">Email address</label>
                     <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp">
                 </div>
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-sm-6">
                     <label for="InputPassword1" class="form-label">Password</label>
                     <input type="password" class="form-control" id="InputPassword1">
                 </div>
@@ -490,11 +490,11 @@
                     <input type="text" class="form-control" id="inputAddress">
                 </div>
                     
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-sm-6">
                     <label for="inputCity" class="form-label">Città</label>
                     <input type="text" class="form-control" id="inputCity">
                 </div>
-                <div class="col-12 col-md-4">
+                <div class="col-12 col-sm-4">
                     <label for="inputState" class="form-label">Stato</label>
                     <select class="form-select" id="inputState">
                         <option selected>Scegli...</option>
@@ -503,7 +503,7 @@
                         <option value="3">Three</option>
                       </select>
                 </div>
-                <div class="col-12 col-md-2">
+                <div class="col-12 col-sm-2">
                     <label for="inputCAP" class="form-label">CAP</label>
                     <input type="number" class="form-control" id="inputCAP">
                 </div>
@@ -512,13 +512,14 @@
                     <label for="inputPhoto" class="form-label">Foto</label>
                     <input type="file" class="form-control" id="inputPhoto">
                 </div>
-                
-                <div class="form-check col-12">
-                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                  <label class="form-check-label" for="exampleCheck1">Seleziona per proseguire</label>
+                <div>
+                    <div class="form-check col-12 ps-4 mb-3">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Seleziona per proseguire</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary col">Salva</button>
+                    <button type="button" class="btn btn-warning col">Svuota</button>
                 </div>
-                <button type="submit" class="btn btn-primary col-12 col-md-2">Salva</button>
-                <button type="button" class="btn btn-warning col-12 col-md-2">Svuota</button>
               </form>
         </div>
     </div>

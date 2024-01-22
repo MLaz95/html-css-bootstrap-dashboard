@@ -94,8 +94,8 @@ body{
     line-height: 30px;
 }
 
-.offcanvas_size_xl{
-    --bs-offcanvas-width: 40%;
+.offcanvas_size{
+    --bs-offcanvas-width: 100%;
 }
 
 /* media query */
@@ -105,3 +105,8 @@ body{
     }
 }
 
+@media screen and (min-width: 768px){
+    .offcanvas_size{
+        --bs-offcanvas-width: 40%;
+    }
+}
