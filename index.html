@@ -78,21 +78,21 @@
         <!-- left bar -->
         <aside class="d-flex flex-column justify-content-between flex-shrink-0 py-4 px-lg-3 px-2">
             <div class="d-flex flex-column align-items-center gap-3">
-                <button type="button" class="btn btn-dark w-100">
+                <button type="button" class="btn text-white w-100">
                     <i class="fa-solid fa-house"></i>
                     <span class="d-none d-lg-inline">Home</span>
                 </button>
-                <button type="button" class="btn btn-dark w-100">
+                <button type="button" class="btn text-white w-100">
                     <i class="fa-solid fa-chart-simple"></i>
                     <span class="d-none d-lg-inline">Stats</span>
                 </button>
-                <button type="button" class="btn btn-dark w-100">
+                <button type="button" class="btn text-white w-100">
                     <i class="fa-solid fa-signal"></i>
                     <span class="d-none d-lg-inline">Signals</span>
                 </button>
             </div>
 
-            <button type="button" class="btn btn-dark w-100">
+            <button type="button" class="btn text-white w-100">
                 <i class="fa-solid fa-gear"></i>
                 <span class="d-none d-lg-inline">Admin</span>
             </button>
@@ -104,18 +104,22 @@
                 <!-- banner top -->
                 <div class="col text-light my_blue_bg">
                     <div class="row row-cols-1 row-cols-md-3 p-3 g-0">
-                        <div class="col col-md-4 col-xl-2 order-md-1">
+                        <div class="col col-xl-2 order-md-1">
                             <span>Nuovo Studente</span>
-                            <i class="fa-regular fa-square-plus fs-1 align-middle"></i>
+                            <button type="button" class="btn btn-outline-light ms-2">
+                                <i class="fa-solid fa-plus"></i>
+                            </button>                            
                         </div>
-                        <div class="col col-md-4 col-xl-6 my_bc_divider">
-                            <h1>Boolean <span class="badge my_dark_bg rounded-pill fs-6 fw-normal align-middle">Piano blaze</span></h1>
+                        <div class="col col-xl-6 ">
+                            <h2>Boolean <span class="badge my_dark_bg rounded-pill fw-normal fs-6 align-middle">Piano blaze</span></h2>
 
-                            <div aria-label="breadcrumb">
+                            <div aria-label="breadcrumb" class="my_bc_divider">
                                 <ol class="breadcrumb">
-                                    <li class="breadcrumb-item py-0 px-2 rounded-pill bg-transparent my_dark_bg "><a href="#" class="link-underline link-underline-opacity-0 text-reset">3 app</a></li>
+                                    <li class="breadcrumb-item py-0 px-2 rounded-pill bg-transparent my_dark_bg">
+                                        <a href="#" class="link-underline link-underline-opacity-0 text-reset small">3 app</a>
+                                    </li>
                                     <li class="breadcrumb-item" aria-current="page">
-                                        <ul class="list-group list-group-horizontal gap-1">
+                                        <ul class="list-group list-group-horizontal gap-1 small">
                                             <li class="list-group-item py-0 px-2 rounded-pill border-0 d-none d-xl-inline bg-transparent my_dark_bg text-reset">Boolean mobile app</li>
                                             <li class="list-group-item py-0 px-2 rounded-pill border-0 d-none d-xl-inline bg-transparent my_dark_bg text-reset">Boolean web app</li>
                                             <li class="list-group-item py-0 px-2 rounded-pill border-0 d-none d-xl-inline bg-transparent my_dark_bg text-reset">Boolean blog app</li>
@@ -125,7 +129,7 @@
                                 </ol>
                             </div>
                         </div>
-                        <div class="col col-md-4">
+                        <div class="col col-xl-4">
                             <div>Studenti online negli ultimi 30 minuti</div>
                             <div class="fs-2">125</div>
                         </div>
@@ -142,7 +146,7 @@
                                     <h2>Prossime Classi</h2>
                                 </div>
                                 <div class="px-3">
-                                    <table class="table text-center">
+                                    <table class="table table-hover text-center">
                                         <thead>
                                             <tr>
                                                 <th class="col-6 col-md-4 col-xl-6 text-start" scope="col">Nome</th>

@@ -5,14 +5,25 @@ main{
 }
 
 aside, main > div{
-    height: 100%;
+    /* height: 100%; */
     /* test */
 }
 
 aside{
-    background-color: aquamarine;
+    background-color: #051E34;
     min-width: 68px;
+    background-image: url(./img/sidebar-bg.png);
+    background-size: cover;
+    background-position: 30%;
     /* test */
+}
+
+aside button{
+    background-color: #051E34;
+}
+
+aside button:hover{
+    background-color: red;
 }
 
 main > div{
@@ -70,6 +81,11 @@ body{
 
 .my_bc_divider{
     --bs-breadcrumb-divider: "\00BB";
+    --bs-secondary-color: white;
+}
+
+.my_breadcrumb_fs{
+    font-size: 14px;
 }
 
 .my_badge{
