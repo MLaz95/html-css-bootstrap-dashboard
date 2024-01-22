@@ -18,12 +18,12 @@ aside{
     /* test */
 }
 
-aside button{
-    background-color: #051E34;
+.my_btn_bg {
+    background-color: rgba(255, 255, 255, 0.0);
 }
 
-aside button:hover{
-    background-color: red;
+.my_btn_bg:hover{
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 main > div{

@@ -77,24 +77,24 @@
     <main class="d-flex">
         <!-- left bar -->
         <aside class="d-flex flex-column justify-content-between flex-shrink-0 py-4 px-lg-3 px-2">
-            <div class="d-flex flex-column align-items-center gap-3">
-                <button type="button" class="btn text-white w-100">
+            <div class="d-flex flex-column align-items-center gap-2">
+                <button type="button" class="btn my_btn_bg rounded-0 text-white w-100">
                     <i class="fa-solid fa-house"></i>
-                    <span class="d-none d-lg-inline">Home</span>
+                    <span class="d-none d-lg-inline ms-2">Home</span>
                 </button>
-                <button type="button" class="btn text-white w-100">
+                <button type="button" class="btn my_btn_bg rounded-0 text-white w-100">
                     <i class="fa-solid fa-chart-simple"></i>
-                    <span class="d-none d-lg-inline">Stats</span>
+                    <span class="d-none d-lg-inline ms-2">Stats</span>
                 </button>
-                <button type="button" class="btn text-white w-100">
+                <button type="button" class="btn my_btn_bg rounded-0 text-white w-100">
                     <i class="fa-solid fa-signal"></i>
-                    <span class="d-none d-lg-inline">Signals</span>
+                    <span class="d-none d-lg-inline ms-2">Signals</span>
                 </button>
             </div>
 
-            <button type="button" class="btn text-white w-100">
+            <button type="button" class="btn my_btn_bg rounded-0 text-white w-100">
                 <i class="fa-solid fa-gear"></i>
-                <span class="d-none d-lg-inline">Admin</span>
+                <span class="d-none d-lg-inline ms-2">Admin</span>
             </button>
         </aside>
 
@@ -107,7 +107,8 @@
                         <div class="col col-xl-2 order-md-1">
                             <span>Nuovo Studente</span>
                             <!-- button for offcanvas -->
-                            <button type="button" class="btn btn-outline-light ms-2" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight">
+                            <button type="button" class="btn btn-outline-light ms-2" data-bs-toggle="offcanvas"
+                                data-bs-target="#offcanvasRight">
                                 <i class="fa-solid fa-plus"></i>
                             </button>
                         </div>
@@ -454,7 +455,8 @@
     </main>
 
     <!-- offcanvas -->
-        <div class="offcanvas offcanvas-end offcanvas_size" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+    <div class="offcanvas offcanvas-end offcanvas_size" tabindex="-1" id="offcanvasRight"
+        aria-labelledby="offcanvasRightLabel">
         <div class="offcanvas-header">
             <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -470,16 +472,22 @@
                     <input type="text" class="form-control" id="inputLastName">
                 </div>
                 <div class="col-12 col-sm-6">
-                  <label for="exampleInputEmail1" class="form-label">Email address</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <div class="input-group">
+                        <span class="input-group-text" id="basic-addon1">@</span>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
                 </div>
                 <div class="col-12 col-sm-6">
-                  <label for="exampleInputPassword1" class="form-label">Password</label>
-                  <input type="password" class="form-control" id="exampleInputPassword1">
+                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
                 </div>
                 <div class="col-12 col-sm-6">
                     <label for="InputEmail1" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp">
+                    <div class="input-group">
+                        <span class="input-group-text" id="basic-addon1">@</span>
+                        <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp">
+                    </div>
                 </div>
                 <div class="col-12 col-sm-6">
                     <label for="InputPassword1" class="form-label">Password</label>
@@ -489,7 +497,7 @@
                     <label for="inputAddress" class="form-label">Indirizzo</label>
                     <input type="text" class="form-control" id="inputAddress">
                 </div>
-                    
+
                 <div class="col-12 col-sm-6">
                     <label for="inputCity" class="form-label">Città</label>
                     <input type="text" class="form-control" id="inputCity">
@@ -501,7 +509,7 @@
                         <option value="1">One</option>
                         <option value="2">Two</option>
                         <option value="3">Three</option>
-                      </select>
+                    </select>
                 </div>
                 <div class="col-12 col-sm-2">
                     <label for="inputCAP" class="form-label">CAP</label>
@@ -520,7 +528,7 @@
                     <button type="submit" class="btn btn-primary col">Salva</button>
                     <button type="button" class="btn btn-warning col">Svuota</button>
                 </div>
-              </form>
+            </form>
         </div>
     </div>
 
