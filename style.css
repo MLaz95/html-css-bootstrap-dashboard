@@ -16,7 +16,7 @@ aside{
 }
 
 main > div{
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     /* test */
 }
 
@@ -30,6 +30,9 @@ main > div{
 /* test */
 
 /* custom colors */
+.my_page_bg{
+    background-color: #F8F9FA;
+}
 
 .my_search_bg{
     background-color: #E5E5E5;
@@ -45,6 +48,10 @@ main > div{
 
 .my_dark_bg{
     backdrop-filter: brightness(75%);
+}
+
+.my_head_bg{
+    background-color: #F7F7F7;
 }
 
 /* end custom colors */
