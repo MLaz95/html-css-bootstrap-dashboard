@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 
 <head>
     <meta charset="UTF-8">
@@ -17,7 +17,7 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <!-- my style sheet -->
     <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
+    <title>Boolean</title>
 </head>
 
 <body>
@@ -34,7 +34,8 @@
             <!-- search bar -->
             <form class="d-flex flex-grow-1 border rounded my_search_bg" role="search">
                 <button class="btn p-2" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
-                <input class="form-control border-0 p-1 bg-transparent" type="search" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search">
+                <input class="form-control border-0 p-1 bg-transparent" type="search"
+                    placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search">
             </form>
             <div class="collapse navbar-collapse flex-grow-0" id="navbarNavDropdown">
                 <ul class="navbar-nav">
@@ -53,14 +54,13 @@
                             <i class="fa-solid fa-ellipsis-vertical"></i>
                         </a>
                     </li>
-                </ul>  
+                </ul>
             </div>
             <!-- end search bar -->
 
             <!-- dropdown menu -->
             <div class="nav-item dropdown px-3">
-                <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown"
-                    aria-expanded="false">
+                <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     <i class="fa-solid fa-bell my_yellow"></i>
                 </a>
                 <ul class="dropdown-menu dropdown-menu-end">
@@ -106,24 +106,35 @@
                     <div class="row row-cols-1 row-cols-md-3 p-3 g-0">
                         <div class="col col-xl-2 order-md-1">
                             <span>Nuovo Studente</span>
-                            <button type="button" class="btn btn-outline-light ms-2">
+                            <!-- button for offcanvas -->
+                            <button type="button" class="btn btn-outline-light ms-2" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight">
                                 <i class="fa-solid fa-plus"></i>
-                            </button>                            
+                            </button>
                         </div>
                         <div class="col col-xl-6 ">
-                            <h2>Boolean <span class="badge my_dark_bg rounded-pill fw-normal fs-6 align-middle">Piano blaze</span></h2>
+                            <h2>Boolean <span class="badge my_dark_bg rounded-pill fw-normal fs-6 align-middle">Piano
+                                    blaze</span></h2>
 
                             <div aria-label="breadcrumb" class="my_bc_divider">
                                 <ol class="breadcrumb">
                                     <li class="breadcrumb-item py-0 px-2 rounded-pill bg-transparent my_dark_bg">
-                                        <a href="#" class="link-underline link-underline-opacity-0 text-reset small">3 app</a>
+                                        <a href="#" class="link-underline link-underline-opacity-0 text-reset small">3
+                                            app</a>
                                     </li>
                                     <li class="breadcrumb-item" aria-current="page">
                                         <ul class="list-group list-group-horizontal gap-1 small">
-                                            <li class="list-group-item py-0 px-2 rounded-pill border-0 d-none d-xl-inline bg-transparent my_dark_bg text-reset">Boolean mobile app</li>
-                                            <li class="list-group-item py-0 px-2 rounded-pill border-0 d-none d-xl-inline bg-transparent my_dark_bg text-reset">Boolean web app</li>
-                                            <li class="list-group-item py-0 px-2 rounded-pill border-0 d-none d-xl-inline bg-transparent my_dark_bg text-reset">Boolean blog app</li>
-                                            <li class="list-group-item py-0 px-2 rounded-pill border-0 d-xl-none bg-transparent my_dark_bg text-reset">+</li>
+                                            <li
+                                                class="list-group-item py-0 px-2 rounded-pill border-0 d-none d-xl-inline bg-transparent my_dark_bg text-reset">
+                                                Boolean mobile app</li>
+                                            <li
+                                                class="list-group-item py-0 px-2 rounded-pill border-0 d-none d-xl-inline bg-transparent my_dark_bg text-reset">
+                                                Boolean web app</li>
+                                            <li
+                                                class="list-group-item py-0 px-2 rounded-pill border-0 d-none d-xl-inline bg-transparent my_dark_bg text-reset">
+                                                Boolean blog app</li>
+                                            <li
+                                                class="list-group-item py-0 px-2 rounded-pill border-0 d-xl-none bg-transparent my_dark_bg text-reset">
+                                                +</li>
                                         </ul>
                                     </li>
                                 </ol>
@@ -159,11 +170,12 @@
                                         <tbody>
                                             <tr>
                                                 <td scope="row" class="text-start">
-                                                    <div class="d-inline-block me-1 my_badge my_orange_bg text-center rounded-circle text-white">
+                                                    <div
+                                                        class="d-inline-block me-1 my_badge my_orange_bg text-center rounded-circle text-white">
                                                         <i class="fa-solid fa-code"></i>
                                                     </div>
                                                     Classe 75
-                                                </th>
+                                                    </th>
                                                 <td class="d-none d-md-table-cell">15 Feb 2021</td>
                                                 <td class="d-none d-md-table-cell">20%</td>
                                                 <td>
@@ -180,7 +192,8 @@
                                             </tr>
                                             <tr>
                                                 <td scope="row" class="text-start">
-                                                    <div class="d-inline-block me-1 my_badge my_orange_bg text-center rounded-circle text-white">
+                                                    <div
+                                                        class="d-inline-block me-1 my_badge my_orange_bg text-center rounded-circle text-white">
                                                         <i class="fa-solid fa-code"></i>
                                                     </div>
                                                     Classe 76
@@ -199,7 +212,8 @@
                                             </tr>
                                             <tr>
                                                 <td scope="row" class="text-start">
-                                                    <div class="d-inline-block me-1 my_badge my_orange_bg text-center rounded-circle text-white">
+                                                    <div
+                                                        class="d-inline-block me-1 my_badge my_orange_bg text-center rounded-circle text-white">
                                                         <i class="fa-solid fa-code"></i>
                                                     </div>
                                                     Classe 77
@@ -218,7 +232,8 @@
                                             </tr>
                                             <tr>
                                                 <td scope="row" class="text-start">
-                                                    <div class="d-inline-block me-1 my_badge my_orange_bg text-center rounded-circle text-white">
+                                                    <div
+                                                        class="d-inline-block me-1 my_badge my_orange_bg text-center rounded-circle text-white">
                                                         <i class="fa-solid fa-code"></i>
                                                     </div>
                                                     Classe 78
@@ -237,7 +252,8 @@
                                             </tr>
                                             <tr>
                                                 <td scope="row" class="text-start">
-                                                    <div class="d-inline-block me-1 my_badge my_orange_bg text-center rounded-circle text-white">
+                                                    <div
+                                                        class="d-inline-block me-1 my_badge my_orange_bg text-center rounded-circle text-white">
                                                         <i class="fa-solid fa-code"></i>
                                                     </div>
                                                     Classe 79
@@ -256,7 +272,8 @@
                                             </tr>
                                             <tr>
                                                 <td scope="row" class="text-start">
-                                                    <div class="d-inline-block me-1 my_badge my_orange_bg text-center rounded-circle text-white">
+                                                    <div
+                                                        class="d-inline-block me-1 my_badge my_orange_bg text-center rounded-circle text-white">
                                                         <i class="fa-solid fa-code"></i>
                                                     </div>
                                                     Classe 80
@@ -275,7 +292,8 @@
                                             </tr>
                                             <tr>
                                                 <td scope="row" class="text-start">
-                                                    <div class="d-inline-block me-1 my_badge my_orange_bg text-center rounded-circle text-white">
+                                                    <div
+                                                        class="d-inline-block me-1 my_badge my_orange_bg text-center rounded-circle text-white">
                                                         <i class="fa-solid fa-code"></i>
                                                     </div>
                                                     Classe 81
@@ -294,7 +312,8 @@
                                             </tr>
                                             <tr>
                                                 <td scope="row" class="text-start">
-                                                    <div class="d-inline-block me-1 my_badge my_orange_bg text-center rounded-circle text-white">
+                                                    <div
+                                                        class="d-inline-block me-1 my_badge my_orange_bg text-center rounded-circle text-white">
                                                         <i class="fa-solid fa-code"></i>
                                                     </div>
                                                     Classe 82
@@ -322,44 +341,53 @@
                                 <div class="px-3 pt-1 pb-2 border-bottom my_head_bg">
                                     <h2>F.A.Q.</h2>
                                 </div>
-                                
+
                                 <div class="p-3">
                                     <div class="accordion" id="accordionPanelsStayOpenExample">
                                         <div class="accordion-item border-0 border-bottom">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne">
-                                            Come aggiungere un nuovo studente?
-                                            </button>
-                                        </h2>
-                                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse">
-                                            <div class="accordion-body">
-                                            Clicca sul + in alto nella sezione blu.
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse"
+                                                    data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false"
+                                                    aria-controls="panelsStayOpen-collapseOne">
+                                                    Come aggiungere un nuovo studente?
+                                                </button>
+                                            </h2>
+                                            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse">
+                                                <div class="accordion-body">
+                                                    Clicca sul + in alto nella sezione blu.
+                                                </div>
                                             </div>
-                                        </div>
                                         </div>
                                         <div class="accordion-item border-0 border-bottom">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                                            Come posso accedere alle informazioni del mio account?
-                                            </button>
-                                        </h2>
-                                        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
-                                            <div class="accordion-body">
-                                            Clicca sull'icona della campanella.
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse"
+                                                    data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                                                    aria-controls="panelsStayOpen-collapseTwo">
+                                                    Come posso accedere alle informazioni del mio account?
+                                                </button>
+                                            </h2>
+                                            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                                                <div class="accordion-body">
+                                                    Clicca sull'icona della campanella.
+                                                </div>
                                             </div>
-                                        </div>
                                         </div>
                                         <div class="accordion-item border-0 border-bottom">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                                            Posso usare questa dashboard da mobile
-                                            </button>
-                                        </h2>
-                                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
-                                            <div class="accordion-body">
-                                            Si.
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse"
+                                                    data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                                    aria-controls="panelsStayOpen-collapseThree">
+                                                    Posso usare questa dashboard da mobile
+                                                </button>
+                                            </h2>
+                                            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                                                <div class="accordion-body">
+                                                    Si.
+                                                </div>
                                             </div>
-                                        </div>
                                         </div>
                                     </div>
                                 </div>
@@ -371,21 +399,24 @@
                                 <div class="px-3 pt-1 pb-2 border-bottom my_head_bg">
                                     <h2>Todo</h2>
                                 </div>
-                                
+
                                 <div class="p-3">
                                     <div>
                                         <ul class="list-group">
                                             <li class="list-group-item">
-                                            <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
-                                            Kickoff nuove classi
+                                                <input class="form-check-input me-1" type="checkbox" value=""
+                                                    aria-label="...">
+                                                Kickoff nuove classi
                                             </li>
                                             <li class="list-group-item">
-                                            <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
-                                            Lezione su Bootstrap 5 in classe #75
+                                                <input class="form-check-input me-1" type="checkbox" value=""
+                                                    aria-label="...">
+                                                Lezione su Bootstrap 5 in classe #75
                                             </li>
                                             <li class="list-group-item">
-                                            <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
-                                            Controllare username github studenti
+                                                <input class="form-check-input me-1" type="checkbox" value=""
+                                                    aria-label="...">
+                                                Controllare username github studenti
                                             </li>
                                     </div>
                                 </div>
@@ -400,10 +431,18 @@
                                         <div>Lista degli utenti attivi in piattaforma nell'ultimo mese</div>
                                     </div>
                                     <ul class="list-group">
-                                        <li class="list-group-item rounded-0 border-start-0 border-end-0">Gennaio:1200</li>
-                                        <li class="list-group-item rounded-0 border-start-0 border-end-0">Febbraio: 800</li>
-                                        <li class="list-group-item rounded-0 border-start-0 border-end-0">Marzo: 1500</li>
-                                        <li class="list-group-item rounded-0 border-start-0 border-end-0 p-3"><a href="#">Visualizza report approfondito</a></li>
+                                        <li class="list-group-item rounded-0 border-start-0 border-end-0">
+                                            Gennaio: 1200
+                                        </li>
+                                        <li class="list-group-item rounded-0 border-start-0 border-end-0">
+                                            Febbraio: 800
+                                        </li>
+                                        <li class="list-group-item rounded-0 border-start-0 border-end-0">
+                                            Marzo: 1500
+                                        </li>
+                                        <li class="list-group-item rounded-0 border-start-0 border-end-0 p-3">
+                                            <a href="#">Visualizza report approfondito</a>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
@@ -413,6 +452,76 @@
             </div>
         </div>
     </main>
+
+    <!-- offcanvas -->
+        <div class="offcanvas offcanvas-end offcanvas_size_xl" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <form class="row g-3">
+                <div class="col-12 col-md-6">
+                    <label for="inputName">Nome</label>
+                    <input type="text" class="form-control" id="inputName">
+                </div>
+                <div class="col-12 col-md-6">
+                    <label for="inputLastName">Cognome</label>
+                    <input type="text" class="form-control" id="inputLastName">
+                </div>
+                <div class="col-12 col-md-6">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="col-12 col-md-6">
+                  <label for="exampleInputPassword1" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="col-12 col-md-6">
+                    <label for="InputEmail1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="col-12 col-md-6">
+                    <label for="InputPassword1" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="InputPassword1">
+                </div>
+                <div class="col-12">
+                    <label for="inputAddress" class="form-label">Indirizzo</label>
+                    <input type="text" class="form-control" id="inputAddress">
+                </div>
+                    
+                <div class="col-12 col-md-6">
+                    <label for="inputCity" class="form-label">Città</label>
+                    <input type="text" class="form-control" id="inputCity">
+                </div>
+                <div class="col-12 col-md-4">
+                    <label for="inputState" class="form-label">Stato</label>
+                    <select class="form-select" id="inputState">
+                        <option selected>Scegli...</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                </div>
+                <div class="col-12 col-md-2">
+                    <label for="inputCAP" class="form-label">CAP</label>
+                    <input type="number" class="form-control" id="inputCAP">
+                </div>
+
+                <div class="col-12">
+                    <label for="inputPhoto" class="form-label">Foto</label>
+                    <input type="file" class="form-control" id="inputPhoto">
+                </div>
+                
+                <div class="form-check col-12">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Seleziona per proseguire</label>
+                </div>
+                <button type="submit" class="btn btn-primary col-12 col-md-2">Salva</button>
+                <button type="button" class="btn btn-warning col-12 col-md-2">Svuota</button>
+              </form>
+        </div>
+    </div>
 
 
 

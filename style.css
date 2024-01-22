@@ -94,6 +94,10 @@ body{
     line-height: 30px;
 }
 
+.offcanvas_size_xl{
+    --bs-offcanvas-width: 40%;
+}
+
 /* media query */
 @media screen and (min-width: 992px){
     aside{
