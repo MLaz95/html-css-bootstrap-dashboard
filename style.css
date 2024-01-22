@@ -29,6 +29,10 @@ main > div{
 }
 /* test */
 
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 /* custom colors */
 .my_page_bg{
     background-color: #F8F9FA;
