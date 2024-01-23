@@ -1,47 +1,44 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 main{
-    background-color: pink;
     height: calc(100vh - 76px); /* navbar offset */
-    /* test */
 }
 
-aside, main > div{
-    /* height: 100%; */
-    /* test */
-}
-
+/* left bar */
 aside{
     background-color: #051E34;
     min-width: 68px;
     background-image: url(./img/sidebar-bg.png);
     background-size: cover;
     background-position: 30%;
-    /* test */
 }
 
-.my_btn_bg {
-    background-color: rgba(255, 255, 255, 0.0);
+/* mobile logo sizing */
+.my_brand{
+    max-height: 46px;
 }
 
-.my_btn_bg:hover{
-    background-color: rgba(255, 255, 255, 0.5);
+/* breadcrumb divider in top bar */
+.my_bc_divider{
+    --bs-breadcrumb-divider: "\00BB";
+    --bs-secondary-color: white;
 }
 
-main > div{
-    /* background-color: blueviolet; */
-    /* test */
+.my_breadcrumb_fs{
+    font-size: 14px;
 }
 
-
-.test{
-    background-color: greenyellow;
-    border: 1px dashed red;
-    /* height: 150px; */
-    /* test */
+/* button and badge sizing in main table */
+.my_badge{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
 }
-/* test */
 
-body{
-    font-family: 'Roboto', sans-serif;
+.offcanvas_size{
+    --bs-offcanvas-width: 100%;
 }
 
 /* custom colors */
@@ -73,39 +70,21 @@ body{
     background-color: #F26551;
 }
 
+.my_btn_bg {
+    background-color: rgba(255, 255, 255, 0.0);
+}
+
+.my_btn_bg:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+}
 /* end custom colors */
-
-.my_brand{
-    max-height: 46px;
-}
-
-.my_bc_divider{
-    --bs-breadcrumb-divider: "\00BB";
-    --bs-secondary-color: white;
-}
-
-.my_breadcrumb_fs{
-    font-size: 14px;
-}
-
-.my_badge{
-    width: 30px;
-    height: 30px;
-    line-height: 30px;
-}
-
-.offcanvas_size{
-    --bs-offcanvas-width: 100%;
-}
 
 /* media query */
 @media screen and (min-width: 992px){
     aside{
         width: 150px;
     }
-}
 
-@media screen and (min-width: 768px){
     .offcanvas_size{
         --bs-offcanvas-width: 40%;
     }
